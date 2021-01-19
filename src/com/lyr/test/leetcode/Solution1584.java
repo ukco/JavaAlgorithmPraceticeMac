@@ -6,7 +6,7 @@ import java.util.*;
  * @Author lyr
  * @Date 1/19/21 10:38 AM
  * @Version 1.0
- * @Description 1584. 连接所有点的最小费用
+ * @Description 1584. 连接所有点的最小费
  */
 public class Solution1584 {
     /**
