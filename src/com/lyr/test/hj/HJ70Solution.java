@@ -11,7 +11,7 @@ import java.util.Stack;
  * @Version 1.0
  * @Description HJ70. 举证乘法计算量估计
  */
-public class HJ79Solution {
+public class HJ70Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         String str;
