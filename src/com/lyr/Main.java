@@ -3,8 +3,15 @@ package com.lyr;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println(new Main().Probability(4));
+	    // write your code here
+        String s1 = "abc";
+        String s2 = new String("abc");
+        System.out.println(s1 == s2);
+        s1 = "hello";
+        System.out.println(s1 == s2);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println("==========================");
     }
 
     /**
