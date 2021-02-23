@@ -6,7 +6,7 @@ package com.lyr.test.leetcode;
  * @Version 1.0
  * @Description 959. 由斜杠划分区域
  */
-public class Solution {
+public class Solution959 {
     /**
      * 并查集
      * @param grid
