@@ -56,6 +56,9 @@ public class Solution2 {
                 l2 = l2.next;
             }
         }
+        if (carry > 0) {
+            cursor.next = new ListNode(carry);
+        }
         return root.next;
     }
 }
