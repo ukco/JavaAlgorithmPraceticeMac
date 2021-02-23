@@ -10,7 +10,7 @@ import java.util.Map;
  * @Description 1. 两数之和
  */
 public class Solution1 {
-    public int[] twoSum(int[] nums, int target) throws IllegalAccessException {
+    public int[] twoSum(int[] nums, int target) throws IllegalArgumentException {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; ++i) {
             int x = nums[i];
@@ -19,7 +19,7 @@ public class Solution1 {
             }
             map.put(x, i);
         }
-        throw new IllegalAccessException("No two sum solution");
+        throw new IllegalArgumentException("No two sum solution");
     }
 
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class Solution1 {
             for (int i : res) {
                 System.out.println(i);
             }
-        } catch (IllegalAccessException e) {
+        } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
     }
