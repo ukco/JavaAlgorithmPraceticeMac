@@ -28,7 +28,6 @@ public class Test1 {
         int len = s.length();
 
         int maxLen = -1;
-        int begin = 0;
         char[] charArray = s.toCharArray();
         for (int i = 0; i < len - 1; i++) {
             int curLen = expandAroudCenter(charArray, i, i + 1);
