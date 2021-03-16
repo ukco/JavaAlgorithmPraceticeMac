@@ -14,11 +14,6 @@ import java.util.Queue;
  * @Description 102. 二叉树的层序遍历
  */
 public class Solution102 {
-    /**
-     * 递归
-     * @param root
-     * @return
-     */
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ret = new ArrayList<>();
         if (root == null) { return ret; }
